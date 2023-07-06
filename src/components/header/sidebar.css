@@ -1,0 +1,84 @@
+.side_bar {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.userImage {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  border: 5px solid var(--text_primary_color);
+}
+.intro .intro_heading {
+  color: var(--text_primary_color);
+  text-decoration: underline;
+}
+
+.nav_link {
+  max-width: 320px;
+  display: block;
+  padding: 8px;
+  text-align: center;
+  margin: 13px auto;
+  border-radius: 30px;
+  color: var(--text_color);
+  background-color: var(--button_color);
+  font-weight: bold;
+  transition: 0.3s linear;
+}
+
+.nav_link:hover,
+.nav_link.active,
+.nav_link.pending {
+  background-color: var(--button_hover);
+  color: #fff;
+}
+
+.social .icon {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  font-size: 18px;
+}
+.social .icon.whatsapp{
+    font-size: 20px;
+}
+
+.social .icon::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  clip-path: circle(00%);
+  transition: 0.3s ease-in-out;
+}
+.social .icon.facebook::after {
+  background: linear-gradient(120deg, #4267b2, #1964fadc);
+}
+.social .icon.linkedin::after {
+  background: linear-gradient(120deg, #0a66c2, #3c7dff);
+}
+.social .icon.gmail::after {
+  background: linear-gradient(120deg, #c71610, #c71610);
+}
+.social .icon.whatsapp::after {
+  background: linear-gradient(90deg, #5ffc7b, #28d146);
+}
+.social .icon:hover{
+    transform: translateY(-6px) scale(1.2);
+}
+.social .icon:hover::after {
+  clip-path: circle(50%);
+}

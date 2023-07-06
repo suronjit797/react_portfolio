@@ -1,0 +1,15 @@
+.children{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.home {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  /* text-align: justify; */
+}
+
+
