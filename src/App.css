@@ -1,10 +1,10 @@
-.children{
-    height: 100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
+.children {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
-
+/* home */
 .home {
   max-width: 800px;
   margin: auto;
@@ -12,4 +12,25 @@
   /* text-align: justify; */
 }
 
+/* project */
+.project_search {
+  border-radius: 30px;
+  overflow: hidden;
+  border: 1px solid var(--text_primary_color);
+}
 
+.project_search input {
+  background-color: transparent;
+  border: transparent;
+  /* border-bottom: 1px solid var(--text_primary_color); */
+  color: var(--text-color);
+  padding: 5px 15px;
+}
+
+.project_search button {
+  background-color: var(--text_primary_color);
+  color: #fff;
+  border: 1px solid var(--text_primary_color);
+  font-size: 20px;
+  padding: 5px 15px;
+}

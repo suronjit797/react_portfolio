@@ -1,0 +1,32 @@
+[
+  {
+    "thumbnail": "/projects/thumb1",
+    "images": ["/projects/image1"],
+    "name": "mess manager",
+    "packages": [
+      "@reduxjs/toolkit",
+      "bcrypt",
+      "colors",
+      "cors",
+      "dotenv",
+      "express",
+      "jsonwebtoken",
+      "moment",
+      "mongodb",
+      "mongoose",
+      "axios",
+      "bootstrap",
+      "jwt-decode",
+      "react",
+      "react-bootstrap",
+      "react-dom",
+      "react-icons",
+      "react-redux",
+      "react-router-dom",
+      "react-scripts",
+      "sweetalert2",
+      "web-vitals"
+    ],
+    "tags": ["mess manager", "mern-stack", "fullstack", "jwt", "redux-toolkit"]
+  }
+]
