@@ -1,0 +1,18 @@
+[
+  {
+    "image": "/projects/image1",
+    "name": "mess manager (server)",
+    "packages": [
+      "bcrypt",
+      "colors",
+      "cors",
+      "dotenv",
+      "express",
+      "jsonwebtoken",
+      "moment",
+      "mongodb",
+      "mongoose"
+    ],
+    "tags": ["mess manager", "mern", "server", "jwt", "api"]
+  }
+]

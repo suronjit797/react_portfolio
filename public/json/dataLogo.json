@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Redux",
+    "logo": "/logo/redux.webp"
+  },
+  {
+    "name": "React Query",
+    "logo": "/logo/react-query.png"
+  },
+  {
+    "name": "TypeScript",
+    "logo": "/logo/ts.png"
+  },
+  {
+    "name": "JWT",
+    "logo": "/logo/jwt.png"
+  },
+  {
+    "name": "Firebase",
+    "logo": "/logo/firebase.png"
+  }
+]

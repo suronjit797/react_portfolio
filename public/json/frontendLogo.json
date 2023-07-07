@@ -1,0 +1,46 @@
+[
+  {
+    "name": "HTML",
+    "logo": "/logo/html.png"
+  },
+  {
+    "name": "CSS",
+    "logo": "/logo/css.png"
+  },
+  {
+    "name": "SCSS",
+    "logo": "/logo/scss.png"
+  },
+  {
+    "name": "JavaScript",
+    "logo": "/logo/js.png"
+  },
+  {
+    "name": "React",
+    "logo": "/logo/react.png"
+  },
+  {
+    "name": "Next.js",
+    "logo": "/logo/next.png"
+  },
+  {
+    "name": "Ant Design",
+    "logo": "/logo/antd.png"
+  },
+  {
+    "name": "Material-UI",
+    "logo": "/logo/mui.png"
+  },
+  {
+    "name": "Chakra UI",
+    "logo": "/logo/chakra.png"
+  },
+  {
+    "name": "Bootstrap",
+    "logo": "/logo/bootstrap.png"
+  },
+  {
+    "name": "Tailwind CSS",
+    "logo": "/logo/tailwind.webp"
+  }
+]

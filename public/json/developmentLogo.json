@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ESLint",
+    "logo": "/logo/eslint.png"
+  },
+  {
+    "name": "GitHub",
+    "logo": "/logo/github.png"
+  },
+  {
+    "name": "Docker",
+    "logo": "/logo/docker.png"
+  },
+  {
+    "name": "NPM",
+    "logo": "/logo/npm.png"
+  },
+  {
+    "name": "Yarn",
+    "logo": "/logo/yarn.png"
+  },
+  {
+    "name": "Figma",
+    "logo": "/logo/figma.png"
+  }
+]

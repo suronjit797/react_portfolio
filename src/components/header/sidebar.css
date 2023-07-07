@@ -65,16 +65,16 @@
   transition: 0.3s ease-in-out;
 }
 .social .icon.facebook::after {
-  background: linear-gradient(120deg, #4267b2, #1964fadc);
+  background: linear-gradient(120deg, #567bc5, #1964fadc);
 }
 .social .icon.linkedin::after {
-  background: linear-gradient(120deg, #0a66c2, #3c7dff);
+  background: linear-gradient(120deg, #2280df, #3c7dff);
 }
 .social .icon.gmail::after {
-  background: linear-gradient(120deg, #c71610, #c71610);
+  background: linear-gradient(120deg, #d63934, #c71610);
 }
-.social .icon.whatsapp::after {
-  background: linear-gradient(90deg, #5ffc7b, #28d146);
+.social .icon.github::after {
+  background: linear-gradient(90deg, #333, #1a1919);
 }
 .social .icon:hover{
     transform: translateY(-6px) scale(1.2);

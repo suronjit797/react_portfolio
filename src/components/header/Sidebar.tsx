@@ -1,9 +1,8 @@
 import { NavLink } from "react-router-dom";
 import user from "../../assets/user.jpeg";
 import "./sidebar.css";
-import { FaFacebookF, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BiLogoGmail } from 'react-icons/bi';
-import { PiWhatsappLogoBold } from 'react-icons/pi';
 
 const Sidebar = () => {
   return (
@@ -86,7 +85,7 @@ const Sidebar = () => {
               <div className="icon facebook"> <FaFacebookF /> </div>
               <div className="icon linkedin"> <FaLinkedinIn /> </div>
               <div className="icon gmail"> <BiLogoGmail /> </div>
-              <div className="icon whatsapp"> <PiWhatsappLogoBold /> </div>
+              <div className="icon github"> <FaGithub /> </div>
         </div>
 
 
