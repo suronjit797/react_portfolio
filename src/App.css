@@ -4,8 +4,6 @@
 .home {
   max-width: 800px;
   margin: auto;
-  padding: 40px;
-  /* text-align: justify; */
 }
 
 /* project */
@@ -18,9 +16,10 @@
 .project_search input {
   background-color: transparent;
   border: transparent;
-  /* border-bottom: 1px solid var(--text_primary_color); */
   color: var(--text-color);
   padding: 5px 15px;
+  padding-right: 0;
+  width: calc(100% - 52px);
 }
 
 .project_search button {
@@ -47,4 +46,11 @@
 }
 .about_short p b{
   color: var(--text_primary_color);
+}
+
+
+@media (max-width: 299px) {
+  #root{
+    display: none !important;
+  }
 }

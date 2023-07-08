@@ -60,7 +60,7 @@ const Skills: React.FC = () => {
 
   useEffect(() => {
     fetchData();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
@@ -68,15 +68,15 @@ const Skills: React.FC = () => {
       {isLoading ? (
         <Loading isLoading={isLoading} />
       ) : (
-        <div className="frontend p-5">
+        <div className="frontend px-lg-5 py-5 px-3 ">
           <div>
             <div className="mb-4">
               <h3 className="fw-bold heading">
-                <span > Frontend </span> Skills
+                <span> Frontend </span> Skills
               </h3>
               <hr />
             </div>
-            <Row xs={2} md={4} lg={6} className="g-4">
+            <Row xs={2} sm={3} md={4} lg={6} className="g-4">
               {frontend.map((data) => (
                 <SkillCard key={data.name} data={data} />
               ))}
@@ -85,7 +85,7 @@ const Skills: React.FC = () => {
           <div>
             <div className="my-4 pt-4">
               <h3 className="fw-bold heading">
-                <span > Backend </span> Skills
+                <span> Backend </span> Skills
               </h3>
               <hr />
             </div>
@@ -98,7 +98,7 @@ const Skills: React.FC = () => {
           <div>
             <div className="my-4 pt-4">
               <h3 className="fw-bold heading">
-                <span > State & Data Management </span>
+                <span> State & Data Management </span>
                 Skills
               </h3>
               <hr />
@@ -112,10 +112,7 @@ const Skills: React.FC = () => {
           <div>
             <div className="my-4 pt-4">
               <h3 className="fw-bold heading">
-                <span >
-                  {" "}
-                  Development & Design Tools{" "}
-                </span>
+                <span> Development & Design Tools </span>
                 Skills
               </h3>
               <hr />

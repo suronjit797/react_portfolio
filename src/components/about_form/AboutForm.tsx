@@ -12,7 +12,7 @@ const AboutForm = () => {
   };
 
   return (
-    <form onSubmit={handelSubmit} className="about_form mt-3 mt-lg-0">
+    <form onSubmit={handelSubmit} className="about_form mt-3 mt-lg-0 px-0 px-sm-3 px-lg-0">
       <div className="input-gro">
         <input
           type="text"

@@ -61,7 +61,7 @@ const Projects = () => {
       {isLoading ? (
         <Loading isLoading={isLoading} />
       ) : (
-        <div className="project p-5">
+        <div className="project px-lg-5 py-5 px-3 ">
           <div className="d-flex">
             <form
               className=" project_search ms-auto"
@@ -83,12 +83,14 @@ const Projects = () => {
           </div>
           <hr />
           <div className="project_body pt-4">
-            <Row xs={1} md={2} lg={3} className="g-4">
-              {filteredData.length > 0
-                ? filteredData.map((filter) => (
-                    <ProjectCard key={filter._id} data={filter} />
-                  ))
-                : <p className='text-danger'> No Project Found </p>}
+            <Row xs={1} sm={2} lg={3} className="g-4">
+              {filteredData.length > 0 ? (
+                filteredData.map((filter) => (
+                  <ProjectCard key={filter._id} data={filter} />
+                ))
+              ) : (
+                <p className="text-danger"> No Project Found </p>
+              )}
             </Row>
           </div>
         </div>

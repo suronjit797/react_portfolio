@@ -6,13 +6,13 @@ const About = () => {
 
   return (
     <Layout>
-      <div className="about p-lg-4 p-0">
+      <div className="about px-lg-5 py-5 px-3 ">
         {/* <div> */}
           <h3 className="heading">
             <span> About </span> Me
           </h3>
           <hr />
-          <p> Hello, Suronjit Pal here! </p>
+          <p> Hello, <span className="text_primary"> Suronjit Pal </span> here! </p>
           <p>
             a passionate MERN (MongoDB, Express.js, React.js, Node.js) stack
             developer with expertise in building scalable and user-friendly web

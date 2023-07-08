@@ -11,11 +11,11 @@ const Contact = () => {
             <span> late's </span> Discuss
           </h4>
           <hr className="mb-5" />
-          <div className="col-lg-6">
+          <div className="col-lg-5 text-lg-start text-center" >
             <AddressShort />
           </div>
 
-          <div className="col-lg-6">
+          <div className="col-lg-7 ">
             <AboutForm />
           </div>
         </div>

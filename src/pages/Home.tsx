@@ -4,7 +4,7 @@ import Layout from "../components/Layout/Layout";
 const Home = () => {
   return (
     <Layout>
-      <div className="home h-100 d-flex align-items-md-center align-items-baseline">
+      <div className="home h-100 px-2 py-5 px-md-5 d-flex align-items-lg-center align-items-baseline">
         <div>
           <h4 className="fw-bold"> Hi There! </h4>
           <h1 className="fw-bold">
