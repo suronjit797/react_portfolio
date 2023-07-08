@@ -22,10 +22,16 @@ const Home = () => {
           </p>
           <div className="my-4">
             <Link to="/contact" className="btn me-2 my-2 primary_button">
-              Contact with me
+              Contact Me
             </Link>
             <button className="btn me-2 my-2 primary_button-border">
-              Download Resume
+              <a
+              target="_blank"
+                href="https://drive.google.com/file/d/112OjH-ARDp4XiwQSC8ppaPw5XAB-_gi3/view?usp=sharing"
+                className="text-light"
+              >
+                Resume
+              </a>
             </button>
           </div>
         </div>

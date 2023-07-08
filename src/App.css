@@ -48,6 +48,40 @@
   color: var(--text_primary_color);
 }
 
+/* project */
+.project_image img{
+  max-height: 300px;
+  width: 100%;
+}
+
+.project p{
+  font-weight: 100;
+}
+
+.project .tags span{
+  font-size: 12px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.project_button{
+  background-color: transparent;
+  border: transparent;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.not_found{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.not_found h1{
+  font-size: 72px;
+  font-weight: bold;
+}
 
 @media (max-width: 299px) {
   #root{

@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
 import user from "../../assets/user.jpeg";
 import "./sidebar.css";
-import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { BiLogoGmail } from 'react-icons/bi';
+import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
 
 const Sidebar = () => {
   return (
@@ -82,13 +82,43 @@ const Sidebar = () => {
         <hr className="w-100" />
 
         <div className="social d-flex justify-content-between">
-              <div className="icon facebook"> <FaFacebookF /> </div>
-              <div className="icon linkedin"> <FaLinkedinIn /> </div>
-              <div className="icon gmail"> <BiLogoGmail /> </div>
-              <div className="icon github"> <FaGithub /> </div>
+          <div className="icon facebook">
+            <a
+              href="https://www.facebook.com/suronjit797/"
+              target="_blank"
+              className="text-white"
+            >
+              <FaFacebookF />
+            </a>
+          </div>
+          <div className="icon linkedin">
+            <a
+              href="https://www.linkedin.com/in/suronjit797/"
+              target="_blank"
+              className="text-white"
+            >
+              <FaLinkedinIn />
+            </a>
+          </div>
+          <div className="icon gmail">
+            <a
+              href="mailto:suronjit797@gmail.com"
+              target="_blank"
+              className="text-white"
+            >
+              <BiLogoGmail />
+            </a>
+          </div>
+          <div className="icon github">
+            <a
+              href="https://github.com/suronjit797"
+              target="_blank"
+              className="text-white"
+            >
+              <FaGithub />
+            </a>
+          </div>
         </div>
-
-
       </div>
     </div>
   );

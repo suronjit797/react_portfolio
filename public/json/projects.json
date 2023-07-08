@@ -29,7 +29,7 @@
       "sweetalert2",
       "web-vitals"
     ],
-    "tags": ["mess manager", "mern-stack", "fullstack", "jwt", "redux-toolkit"],
+    "tags": ["mess manager", "mern-stack", "react", "express", "redux-toolkit"],
     "live_url": "https://mess-manager.netlify.app/",
     "github_url": {
       "frontend": "https://github.com/suronjit797/mess-manager-client",

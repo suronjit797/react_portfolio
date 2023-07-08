@@ -14,10 +14,16 @@ const ProjectCard: React.FC<IProjectProps> = ({ data }) => {
   return (
     <Col>
       <div className="projectCard text-center rounded-3 overflow-hidden">
-        <img src={thumbnail} alt={name} />
+        <div className="projectCard_img">
+          <img src={thumbnail} alt={name} />
+        </div>
         <h5 className="project_title text-capitalize pt-3"> {name} </h5>
         <div className="d-flex align-items-center justify-content-between p-3">
-          <a target="_blank" href={live_url} className="btn primary_button rounded-circle">
+          <a
+            target="_blank"
+            href={live_url}
+            className="btn primary_button rounded-circle"
+          >
             <AiOutlineLink />
           </a>
           <Link
