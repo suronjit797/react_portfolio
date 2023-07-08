@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Layout from "../components/Layout/Layout";
 const NotFound = () => {
   return (
     <div className="container py-5 not_found">
