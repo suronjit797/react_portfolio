@@ -34,7 +34,7 @@ const About = () => {
               <b> Age:</b> <span> {birthday} </span>
             </p>
             <p>
-              <b> Address:</b> <span> Itagacha, Satkhira </span>
+              <b> Address:</b> <span> Satkhira, Bangladesh </span>
             </p>
             <p>
               <b> Nationality:</b> <span> Bangladeshi </span>

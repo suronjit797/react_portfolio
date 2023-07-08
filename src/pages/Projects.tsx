@@ -84,9 +84,11 @@ const Projects = () => {
           <hr />
           <div className="project_body pt-4">
             <Row xs={1} md={2} lg={3} className="g-4">
-              {filteredData.map((filter) => (
-                <ProjectCard key={filter._id} data={filter} />
-              ))}
+              {filteredData.length > 0
+                ? filteredData.map((filter) => (
+                    <ProjectCard key={filter._id} data={filter} />
+                  ))
+                : <p className='text-danger'> No Project Found </p>}
             </Row>
           </div>
         </div>

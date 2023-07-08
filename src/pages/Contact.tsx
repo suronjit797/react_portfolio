@@ -1,23 +1,24 @@
 import Layout from "../components/Layout/Layout";
+import AboutForm from "../components/about_form/AboutForm";
+import AddressShort from "../components/address_short/AddressShort";
 
 const Contact = () => {
   return (
     <Layout>
-      <div className="home h-100 d-flex align-items-md-center align-items-baseline">
-        <form>
-          <h4 className="text-center mb-4 heading text-capitalize">
+      <div className="">
+        <div className="row h-100 py-5 px-lg-4">
+          <h4 className="mb-4 heading text-capitalize">
             <span> late's </span> Discuss
           </h4>
-          <div className="input-gro">
-            <input type="text" name="" id="" />
+          <hr className="mb-5" />
+          <div className="col-lg-6">
+            <AddressShort />
           </div>
-          <div className="input-gro">
-            <input type="email" name="" id="" />
+
+          <div className="col-lg-6">
+            <AboutForm />
           </div>
-          <div className="input-gro">
-            <textarea name="message" id="message" rows={10} />
-          </div>
-        </form>
+        </div>
       </div>
     </Layout>
   );

@@ -74,8 +74,14 @@ img {
   color: var(--text_primary_color);
 }
 
-button, input{
+
+
+button, input, textarea{
   outline: none !important;
+}
+
+::placeholder{
+  text-transform: capitalize;
 }
 
 .primary_button {

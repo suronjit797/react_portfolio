@@ -2,7 +2,6 @@ import { TProject } from "../../interfaces/project";
 import "./projectCard.css";
 import { Col } from "react-bootstrap";
 import { AiOutlineLink, AiOutlineEye } from "react-icons/ai";
-import { GrFormView } from "react-icons/gr";
 import { Link } from "react-router-dom";
 
 interface IProjectProps {
