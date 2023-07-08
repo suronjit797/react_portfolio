@@ -34,3 +34,21 @@
   font-size: 20px;
   padding: 5px 15px;
 }
+
+/* about */
+.about{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  min-height: 100vh;
+}
+.about p{
+  font-weight: 100;
+}
+.about_short p{
+  margin-bottom: 5px;
+}
+.about_short p b{
+  color: var(--text_primary_color);
+}

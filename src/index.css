@@ -14,6 +14,7 @@
   --primary_color: #292929;
   --secondary_color: #000;
   --third_color: #121212;
+  /* --third_color_rgba: (18, 18, 18); */
   --text_primary_color: #bb86fc;
   --button_hover: #8c61ff;
   --button_color: #6592fd;
@@ -100,4 +101,21 @@ button, input{
 
 .primary_button-border:hover{
   background-color: var(--button_hover);
+}
+
+
+.heading span{
+  color: var(--text_primary_color);
+  position: relative;
+}
+
+.heading span::before{
+  content: '';
+  background: linear-gradient(90deg, #bb86fc6e, #0000);
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  border-radius: 50%;
 }

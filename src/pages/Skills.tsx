@@ -71,8 +71,8 @@ const Skills: React.FC = () => {
         <div className="frontend p-5">
           <div>
             <div className="mb-4">
-              <h3 className="fw-bold">
-                <span className="text_primary"> Frontend </span> Skills
+              <h3 className="fw-bold heading">
+                <span > Frontend </span> Skills
               </h3>
               <hr />
             </div>
@@ -84,8 +84,8 @@ const Skills: React.FC = () => {
           </div>
           <div>
             <div className="my-4 pt-4">
-              <h3 className="fw-bold">
-                <span className="text_primary"> Backend </span> Skills
+              <h3 className="fw-bold heading">
+                <span > Backend </span> Skills
               </h3>
               <hr />
             </div>
@@ -97,8 +97,8 @@ const Skills: React.FC = () => {
           </div>
           <div>
             <div className="my-4 pt-4">
-              <h3 className="fw-bold">
-                <span className="text_primary"> State & Data Management </span>
+              <h3 className="fw-bold heading">
+                <span > State & Data Management </span>
                 Skills
               </h3>
               <hr />
@@ -111,8 +111,8 @@ const Skills: React.FC = () => {
           </div>
           <div>
             <div className="my-4 pt-4">
-              <h3 className="fw-bold">
-                <span className="text_primary">
+              <h3 className="fw-bold heading">
+                <span >
                   {" "}
                   Development & Design Tools{" "}
                 </span>

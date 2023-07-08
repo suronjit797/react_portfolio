@@ -8,10 +8,21 @@
   padding: 15px;
   border-radius: 5px;
   transition: 0.3s ease-in-out;
+  background: linear-gradient(
+    163deg,
+    #121212 7.29%,
+    #333333 34.38%,
+    #5e5e5e 56.77%,
+    #333 84.9%,
+    #121212 100%
+  );
+  border-top: 1px solid var(--text_color);
+  border-bottom: 1px solid #000;
+  opacity: .5;
 }
 .skillCard:hover {
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  opacity: 1;
 }
 
 .skillCard img {
