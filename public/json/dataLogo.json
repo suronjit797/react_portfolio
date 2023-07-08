@@ -1,21 +1,26 @@
 [
   {
+    "_id": 1,
     "name": "Redux",
     "logo": "/logo/redux.webp"
   },
   {
+    "_id": 2,
     "name": "React Query",
     "logo": "/logo/react-query.png"
   },
   {
+    "_id": 3,
     "name": "TypeScript",
     "logo": "/logo/ts.png"
   },
   {
+    "_id": 4,
     "name": "JWT",
     "logo": "/logo/jwt.png"
   },
   {
+    "_id": 5,
     "name": "Firebase",
     "logo": "/logo/firebase.png"
   }

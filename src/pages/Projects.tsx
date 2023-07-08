@@ -5,6 +5,7 @@ import axios from "axios";
 import Loading from "../components/loading/Loading";
 import { BsSearch } from "react-icons/bs";
 import ProjectCard from "../components/projectCard/ProjectCard";
+import { Row } from "react-bootstrap";
 
 const Projects = () => {
   const [projects, setProjects] = useState<TProject[]>([]);
@@ -43,6 +44,8 @@ const Projects = () => {
         (project) =>
           project.name.includes(search) ||
           project.packages.includes(search) ||
+          project._id.includes(search) ||
+          project.description.includes(search) ||
           project.tags.includes(search)
       );
 
@@ -52,6 +55,7 @@ const Projects = () => {
     }
     setIsLoading(false);
   };
+
   return (
     <Layout>
       {isLoading ? (
@@ -78,10 +82,12 @@ const Projects = () => {
             </form>
           </div>
           <hr />
-          <div className="project_body">
-            {filteredData.map((filter) => (
-              <ProjectCard data={filter} />
-            ))}
+          <div className="project_body pt-4">
+            <Row xs={1} md={2} lg={3} className="g-4">
+              {filteredData.map((filter) => (
+                <ProjectCard key={filter._id} data={filter} />
+              ))}
+            </Row>
           </div>
         </div>
       )}

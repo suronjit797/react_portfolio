@@ -1,6 +1,15 @@
 export type TProject = {
-    image: string;
-    name: string;
-    packages: string[];
-    tags: string[];
-}
+  _id: string;
+  thumbnail: string;
+  images: string[];
+  name: string;
+  packages: string[];
+  tags: string[];
+  description: string;
+  live_url: string;
+  github_url: {
+    frontend?: string;
+    backend?: string;
+  };
+};
+

@@ -1,8 +1,10 @@
 [
   {
-    "thumbnail": "/projects/thumb1",
-    "images": ["/projects/image1"],
+    "_id": "1",
+    "thumbnail": "/projects/mess.png",
+    "images": ["/projects/mess.png"],
     "name": "mess manager",
+    "description": " \"Mess Manager\" is a MERN stack project that simplifies expense management for shared living. It enables users to create accounts, track shared expenses, split bills, and generate reports. With React, Express.js, MongoDB, and Node.js, it offers a seamless solution for efficient financial management among roommates or shared households.",
     "packages": [
       "@reduxjs/toolkit",
       "bcrypt",
@@ -27,6 +29,85 @@
       "sweetalert2",
       "web-vitals"
     ],
-    "tags": ["mess manager", "mern-stack", "fullstack", "jwt", "redux-toolkit"]
+    "tags": ["mess manager", "mern-stack", "fullstack", "jwt", "redux-toolkit"],
+    "live_url": "https://mess-manager.netlify.app/",
+    "github_url": {
+      "frontend": "https://github.com/suronjit797/mess-manager-client",
+      "backend": "https://github.com/suronjit797/mess-manger-server"
+    }
+  },
+  {
+    "_id": "2",
+    "thumbnail": "/projects/mess.png",
+    "images": ["/projects/mess.png"],
+    "name": "mess manager 2",
+    "description": " \"Mess Manager\" is a MERN stack project that simplifies expense management for shared living. It enables users to create accounts, track shared expenses, split bills, and generate reports. With React, Express.js, MongoDB, and Node.js, it offers a seamless solution for efficient financial management among roommates or shared households.",
+    "packages": [
+      "@reduxjs/toolkit",
+      "bcrypt",
+      "colors",
+      "cors",
+      "dotenv",
+      "express",
+      "jsonwebtoken",
+      "moment",
+      "mongodb",
+      "mongoose",
+      "axios",
+      "bootstrap",
+      "jwt-decode",
+      "react",
+      "react-bootstrap",
+      "react-dom",
+      "react-icons",
+      "react-redux",
+      "react-router-dom",
+      "react-scripts",
+      "sweetalert2",
+      "web-vitals"
+    ],
+    "tags": ["mess manager", "mern-stack", "fullstack", "jwt", "redux-toolkit"],
+    "live_url": "https://mess-manager.netlify.app/",
+    "github_url": {
+      "frontend": "https://github.com/suronjit797/mess-manager-client",
+      "backend": "https://github.com/suronjit797/mess-manger-server"
+    }
+  },
+  {
+    "_id": "3",
+    "thumbnail": "/projects/mess.png",
+    "images": ["/projects/mess.png"],
+    "name": "mess manager 3",
+    "description": " \"Mess Manager\" is a MERN stack project that simplifies expense management for shared living. It enables users to create accounts, track shared expenses, split bills, and generate reports. With React, Express.js, MongoDB, and Node.js, it offers a seamless solution for efficient financial management among roommates or shared households.",
+    "packages": [
+      "@reduxjs/toolkit",
+      "bcrypt",
+      "colors",
+      "cors",
+      "dotenv",
+      "express",
+      "jsonwebtoken",
+      "moment",
+      "mongodb",
+      "mongoose",
+      "axios",
+      "bootstrap",
+      "jwt-decode",
+      "react",
+      "react-bootstrap",
+      "react-dom",
+      "react-icons",
+      "react-redux",
+      "react-router-dom",
+      "react-scripts",
+      "sweetalert2",
+      "web-vitals"
+    ],
+    "tags": ["mess manager", "mern-stack", "fullstack", "jwt", "redux-toolkit"],
+    "live_url": "https://mess-manager.netlify.app/",
+    "github_url": {
+      "frontend": "https://github.com/suronjit797/mess-manager-client",
+      "backend": "https://github.com/suronjit797/mess-manger-server"
+    }
   }
 ]

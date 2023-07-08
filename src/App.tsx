@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import NotFound from "./pages/NotFound";
+import Project from "./pages/Project";
 
 const App = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const App = createBrowserRouter([
   {
     path: "/projects",
     element: <Projects />,
+  },
+  {
+    path: "/projects/:projectId",
+    element: <Project />,
   },
   {
     path: "/skills",
