@@ -12,7 +12,7 @@ import { MdKeyboardBackspace } from "react-icons/md";
 
 const Project = () => {
   const { projectId } = useParams();
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const [project, setProject] = useState<TProject | undefined>({
     name: "",
     _id: "",
@@ -41,16 +41,15 @@ const Project = () => {
 
   const Toast = Swal.mixin({
     toast: true,
-    position: 'top-end',
+    position: "top-end",
     showConfirmButton: false,
     timer: 3000,
     timerProgressBar: true,
     didOpen: (toast) => {
-      toast.addEventListener('mouseenter', Swal.stopTimer)
-      toast.addEventListener('mouseleave', Swal.resumeTimer)
-    }
-  })  
-
+      toast.addEventListener("mouseenter", Swal.stopTimer);
+      toast.addEventListener("mouseleave", Swal.resumeTimer);
+    },
+  });
 
   const fetchData = async () => {
     setIsLoading(true);
@@ -66,9 +65,9 @@ const Project = () => {
   const tagHandler = (tag: string) => {
     navigator.clipboard.writeText(tag);
     Toast.fire({
-      icon: 'success',
-      title: 'Text copy'
-    })
+      icon: "success",
+      title: "Text copy",
+    });
   };
 
   return (
@@ -82,7 +81,10 @@ const Project = () => {
               <img src={project?.thumbnail} alt={project?.name} />
             </div>
           </div> */}
-          <button onClick={()=> navigate(-1)} className="project_button" > <MdKeyboardBackspace /> </button>
+          <button onClick={() => navigate(-1)} className="project_button">
+            {" "}
+            <MdKeyboardBackspace />{" "}
+          </button>
 
           <Card bg="dark" text="light">
             <Card.Img variant="top" src={project?.thumbnail} />
@@ -106,24 +108,30 @@ const Project = () => {
                 ))}
               </p>
               <div>
-                <a href={project?.live_url} target="_blank">
-                  <Button className="fw-light me-2" variant="primary">
-                    <FaShareSquare />
-                    <span className="ms-2"> Live preview </span>
-                  </Button>
-                </a>
-                <a href={project?.github_url.frontend} target="_blank">
-                  <Button className="fw-light me-2" variant="light">
-                    <BsGithub />
-                    <span className="ms-2"> Frontend </span>
-                  </Button>
-                </a>
-                <a href={project?.github_url.backend} target="_blank">
-                  <Button className="fw-light me-2" variant="secondary">
-                    <BsGithub />
-                    <span className="ms-2"> Backend </span>
-                  </Button>
-                </a>
+                {project?.live_url && (
+                  <a href={project?.live_url} target="_blank">
+                    <Button className="fw-light me-2" variant="primary">
+                      <FaShareSquare />
+                      <span className="ms-2"> Live preview </span>
+                    </Button>
+                  </a>
+                )}
+                {project?.github_url?.frontend && (
+                  <a href={project?.github_url?.frontend} target="_blank">
+                    <Button className="fw-light me-2" variant="light">
+                      <BsGithub />
+                      <span className="ms-2"> Frontend </span>
+                    </Button>
+                  </a>
+                )}
+                {project?.github_url?.backend && (
+                  <a href={project?.github_url?.backend} target="_blank">
+                    <Button className="fw-light me-2" variant="secondary">
+                      <BsGithub />
+                      <span className="ms-2"> Backend </span>
+                    </Button>
+                  </a>
+                )}
               </div>
             </Card.Body>
           </Card>
