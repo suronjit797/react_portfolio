@@ -7,7 +7,7 @@ import { BiLogoGmail } from "react-icons/bi";
 const Sidebar = () => {
   return (
     <div className="side_bar w-100 py-3 pe-3">
-      <div className=" d-flex align-items-center justify-content-center flex-column">
+      <div className=" d-flex align-items-center justify-content-center flex-column h-100">
         <img src={user} alt="user" className="userImage" />
         <div className="intro text-center mt-3 mb-2">
           <h3 className="intro_heading">
@@ -16,7 +16,7 @@ const Sidebar = () => {
           <h6> MERN Stack Developer </h6>
         </div>
 
-        <nav className="w-100 px-lg-4">
+        <nav className="w-100 px-lg-4 mb-4">
           <div className="nav_items">
             <NavLink
               className={({ isActive, isPending }) => {
@@ -79,7 +79,7 @@ const Sidebar = () => {
           </div>
         </nav>
 
-        <hr className="w-100" />
+        <hr className="w-100 mt-auto" />
 
         <div className="social d-flex justify-content-between">
           <div className="icon facebook">

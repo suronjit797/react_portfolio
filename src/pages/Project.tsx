@@ -29,7 +29,7 @@ const Project = () => {
   });
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
-  const getFrontend = async () => {
+  const getProject = async () => {
     try {
       const { data } = await axios.get<TProject[]>("/json/projects.json");
       const find = data.find((d) => d._id === projectId);
@@ -54,7 +54,7 @@ const Project = () => {
 
   const fetchData = async () => {
     setIsLoading(true);
-    await getFrontend();
+    await getProject();
     setIsLoading(false);
   };
 

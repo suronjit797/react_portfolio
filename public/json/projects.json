@@ -3,7 +3,7 @@
     "_id": "1",
     "thumbnail": "/projects/mess.png",
     "images": ["/projects/mess.png"],
-    "name": "mess manager",
+    "name": "mess manager web app",
     "description": " \"Mess Manager\" is a MERN stack project that simplifies expense management for shared living. It enables users to create accounts, track shared expenses, split bills, and generate reports. With React, Express.js, MongoDB, and Node.js, it offers a seamless solution for efficient financial management among roommates or shared households.",
     "packages": [
       "@reduxjs/toolkit",
@@ -38,76 +38,101 @@
   },
   {
     "_id": "2",
-    "thumbnail": "/projects/mess.png",
-    "images": ["/projects/mess.png"],
-    "name": "mess manager 2",
-    "description": " \"Mess Manager\" is a MERN stack project that simplifies expense management for shared living. It enables users to create accounts, track shared expenses, split bills, and generate reports. With React, Express.js, MongoDB, and Node.js, it offers a seamless solution for efficient financial management among roommates or shared households.",
-    "packages": [
-      "@reduxjs/toolkit",
-      "bcrypt",
-      "colors",
-      "cors",
-      "dotenv",
-      "express",
-      "jsonwebtoken",
-      "moment",
-      "mongodb",
-      "mongoose",
-      "axios",
-      "bootstrap",
-      "jwt-decode",
-      "react",
-      "react-bootstrap",
-      "react-dom",
-      "react-icons",
-      "react-redux",
-      "react-router-dom",
-      "react-scripts",
-      "sweetalert2",
-      "web-vitals"
-    ],
-    "tags": ["mess manager", "mern-stack", "fullstack", "jwt", "redux-toolkit"],
-    "live_url": "https://mess-manager.netlify.app/",
+    "thumbnail": "/projects/musion.png",
+    "images": ["/projects/musion.png"],
+    "name": "Musion – Gardening and Landscaping Bootstrap5 Template",
+    "description": " Welcome to my web developer portfolio site! Here, you'll find a unique website project that revolves around gardening and a digital library. This engaging website combines my passion for web development with my love for nature and knowledge. Explore the beautifully designed interface as you dive into a rich collection of gardening resources, from plant care guides to landscaping inspiration. Immerse yourself in an intuitive user experience that showcases my expertise in front-end development, responsive design, and interactive features. Join me on this digital journey, where technology meets the beauty of nature and learning.",
+    "packages": [],
+    "tags": ["musion", "frontend", "html", "scss", "jQuery"],
+    "live_url": "https://suronjit797.github.io/musion",
     "github_url": {
-      "frontend": "https://github.com/suronjit797/mess-manager-client",
-      "backend": "https://github.com/suronjit797/mess-manger-server"
+      "frontend": "https://github.com/suronjit797/musion",
+      "backend": ""
     }
   },
   {
     "_id": "3",
-    "thumbnail": "/projects/mess.png",
-    "images": ["/projects/mess.png"],
-    "name": "mess manager 3",
-    "description": " \"Mess Manager\" is a MERN stack project that simplifies expense management for shared living. It enables users to create accounts, track shared expenses, split bills, and generate reports. With React, Express.js, MongoDB, and Node.js, it offers a seamless solution for efficient financial management among roommates or shared households.",
-    "packages": [
-      "@reduxjs/toolkit",
-      "bcrypt",
-      "colors",
-      "cors",
-      "dotenv",
-      "express",
-      "jsonwebtoken",
-      "moment",
-      "mongodb",
-      "mongoose",
-      "axios",
-      "bootstrap",
-      "jwt-decode",
-      "react",
-      "react-bootstrap",
-      "react-dom",
-      "react-icons",
-      "react-redux",
-      "react-router-dom",
-      "react-scripts",
-      "sweetalert2",
-      "web-vitals"
-    ],
-    "tags": ["mess manager", "mern-stack", "fullstack", "jwt", "redux-toolkit"],
+    "thumbnail": "/projects/model.png",
+    "images": ["/projects/model.png"],
+    "name": "A model website",
+    "description": " A webstie for model made with HTML5, scss and javascript",
+    "packages": [],
+    "tags": ["model", "frontend", "html", "css", "javascript"],
+    "live_url": "https://suronjit797.github.io/model/",
+    "github_url": {
+      "frontend": "https://github.com/suronjit797/model",
+      "backend": ""
+    }
+  },
+  {
+    "_id": "4",
+    "thumbnail": "/projects/portfolio.png",
+    "images": ["/projects/portfolio.png"],
+    "name": "portfolio website",
+    "description": " A simple portfolio webstie  made with HTML5, scss and javascript",
+    "packages": [],
+    "tags": ["portfoilio", "frontend", "html", "css", "javascript"],
+    "live_url": "https://suronjit797.github.io/personaPortfolio/",
+    "github_url": {
+      "frontend": "https://github.com/suronjit797/personaPortfolio",
+      "backend": ""
+    }
+  },
+  {
+    "_id": "5",
+    "thumbnail": "/projects/restaurent.png",
+    "images": ["/projects/restaurent.png"],
+    "name": "Restaurent webstie",
+    "description": " A Restaurent webstie made with HTML5, css and javascript, fetch data with javascript",
+    "packages": [],
+    "tags": ["portfoilio", "frontend", "html", "css", "javascript", "fetch"],
+    "live_url": "https://restaurant-vanila-js.netlify.app/index.html",
+    "github_url": {
+      "frontend": "https://github.com/suronjit797/restaurent",
+      "backend": ""
+    }
+  },
+  {
+    "_id": "6",
+    "thumbnail": "/projects/flexy.png",
+    "images": ["/projects/flexy.png"],
+    "name": "influencer webstie",
+    "description": " A dashboard webstie made with react, css and MUI,",
+    "packages": [],
+    "tags": ["flexy", "frontend", "react", "css", "MUI"],
+    "live_url": "https://flexy-s.netlify.app/",
+    "github_url": {
+      "frontend": "https://github.com/suronjit797/flexy",
+      "backend": ""
+    }
+  },
+  {
+    "_id": "7",
+    "thumbnail": "/projects/scriptTv.png",
+    "images": ["/projects/scriptTv.png"],
+    "name": "influencer webstie",
+    "description": " A demo webstie made with react(vite js), css and MUI,",
+    "packages": [],
+    "tags": ["flexy", "frontend", "react", "vite", "css", "MUI"],
+    "live_url": "https://script-tv.netlify.app/",
+    "github_url": {
+      "frontend": "https://github.com/suronjit797/scriptTv",
+      "backend": ""
+    }
+  },
+
+  {
+    "_id": "8",
+    "thumbnail": "/projects/mega.png",
+    "images": ["/projects/mega.png"],
+    "name": " MegaOne HTML5 Template",
+    "description": " A portfolio webstie made with HTML5, scss and javascript",
+    "packages": [],
+    "tags": ["Mega one", "frontend", "html", "css", "javascript"],
     "live_url": "https://mess-manager.netlify.app/",
     "github_url": {
-      "frontend": "https://github.com/suronjit797/mess-manager-client",
-      "backend": "https://github.com/suronjit797/mess-manger-server"
+      "frontend": "https://github.com/suronjit797/megaPortfolio",
+      "backend": ""
     }
   }
 ]
