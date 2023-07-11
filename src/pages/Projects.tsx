@@ -83,7 +83,7 @@ const Projects = () => {
           </div>
           <hr />
           <div className="project_body pt-4">
-            <Row xs={1} sm={2} lg={3} className="g-4">
+            <Row xs={1} sm={2} lg={3} className="g-4 align-items-stretch">
               {filteredData.length > 0 ? (
                 filteredData.map((filter) => (
                   <ProjectCard key={filter._id} data={filter} />
